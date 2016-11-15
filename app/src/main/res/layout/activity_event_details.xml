@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white_darken_1"
+        android:layout_height="match_parent">
+
+
+    <android.support.design.widget.AppBarLayout android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <android.support.v7.widget.Toolbar android:id="@+id/toolbarEvent"
+            android:layout_width="match_parent" android:layout_height="60dp"
+            android:background="#21BCD0" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/title"
+                android:text="Computer Department"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/white_darken_1"
+                android:textSize="20dp"/>
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white_darken_1">
+
+            <ImageView
+                android:layout_below="@+id/t"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/xen"
+                android:scaleType="fitXY"
+                android:id="@+id/eventImage" />
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/card_event_name"
+                android:clickable="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="14dp"
+                    android:paddingBottom="14dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:tint="@color/dark_v1"
+                        android:text="Event Name"
+                        android:textSize="25sp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginStart="30dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/app_name"
+                        android:textSize="25dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginStart="30dp"
+                        android:layout_gravity="center_vertical"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:id="@+id/text_event_name"/>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/card_event_description"
+                android:clickable="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="14dp"
+                    android:paddingBottom="14dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:tint="@color/dark_v1"
+                        android:text="Event Description"
+                        android:textSize="25sp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginStart="30dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/app_name"
+                        android:layout_marginTop="6dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_gravity="center_vertical"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:id="@+id/text_event_description"/>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/card_event_price"
+                android:clickable="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="14dp"
+                    android:paddingBottom="14dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:tint="@color/dark_v1"
+                        android:text="Event Fees"
+                        android:textSize="25sp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginStart="30dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/app_name"
+                        android:layout_marginTop="6dp"
+                        android:textSize="20dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginStart="30dp"
+                        android:layout_gravity="center_vertical"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:id="@+id/text_event_rate"/>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/card_event_date"
+                android:clickable="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="14dp"
+                    android:paddingBottom="14dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:tint="@color/dark_v1"
+                        android:text="Event Date"
+                        android:textSize="25sp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginStart="30dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/app_name"
+                        android:layout_marginTop="6dp"
+                        android:textSize="20dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginStart="30dp"
+                        android:layout_gravity="center_vertical"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:id="@+id/text_event_date"/>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/card_event_time"
+                android:clickable="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="14dp"
+                    android:paddingBottom="14dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:tint="@color/dark_v1"
+                        android:text="Event Time"
+                        android:textSize="25sp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginStart="30dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/app_name"
+                        android:layout_marginTop="6dp"
+                        android:textSize="20dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginStart="30dp"
+                        android:layout_gravity="center_vertical"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:id="@+id/text_event_time"/>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/card_coordinator_name"
+                android:clickable="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:paddingTop="14dp"
+                        android:paddingBottom="14dp"
+                        android:orientation="vertical"
+                        android:onClick="call"
+                        android:layout_weight="0.75">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:tint="@color/dark_v1"
+                            android:text="Coordinator Name"
+                            android:textSize="25sp"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginStart="30dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/app_name"
+                            android:layout_marginTop="6dp"
+                            android:textSize="20dp"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginStart="30dp"
+                            android:layout_gravity="center_vertical"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:id="@+id/text_event_coordinator_name"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="right"
+                        android:layout_weight="0.25">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:scaleType="fitXY"
+                            android:layout_gravity="center_vertical|center_horizontal|right"
+                            android:paddingRight="25dp"
+                            android:onClick="call"
+                            android:src="@drawable/ic_call_black_24dp"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp">
+                <Button
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Registration Form"
+                    android:id="@+id/form"
+                    android:textColor="@android:color/white"
+                    android:onClick="regForm"
+                    android:layout_marginBottom="70dp"
+                    android:background="#21BCD0"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

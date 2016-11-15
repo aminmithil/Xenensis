@@ -1,0 +1,105 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="in.ac.ldrp.xenesis.xenesis">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/header_logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ComputerDept"
+            android:label="Computer Department"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".ElectricalDept"
+            android:label="Electrical Department"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".ElectronicsDept"
+            android:label="Electronics Department"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".MechanicalDept"
+            android:label="Mech/Auto Department"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".Workshop"
+            android:label="@string/title_activity_workshop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".EventDetails"
+            android:label="@string/title_activity_event_details"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".AboutLDRP"
+            android:label="@string/title_activity_about_ldrp"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".AboutXen"
+            android:label="@string/title_activity_about_xen"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".ContactUs"
+            android:label="Contact Us"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".RegistrationForm"
+            android:label="Registration Form"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".CivilDept"
+            android:label="Civil Department"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan">
+        </activity>
+        <activity
+            android:name=".McaDept"
+            android:label="MCA Department"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan">
+        </activity>
+        <activity
+            android:name=".Science"
+            android:label="Science And Humanity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan">
+        </activity>
+    </application>
+
+</manifest>

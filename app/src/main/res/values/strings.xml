@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Xenesis</string>
+    <string name="main_page_title">Xenesis-Events</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string-array name="main">
+        <item>"Computer Dept."</item>
+        <item>"Civil Dept."</item>
+        <item>"Electronics Dept."</item>
+        <item>"Electrical Dept."</item>
+        <item>"Mechanical Dept."</item>
+        <item>"MCA Dept."</item>
+        <item>"Science and Humanities"</item>
+    </string-array>
+    <string name="title_activity_computer_dept">ComputerDept</string>
+    <string name="title_activity_electrical_dept">ElectricalDept</string>
+    <string name="title_activity_electronics_dept">ElectronicsDept</string>
+    <string name="title_activity_mechanical_dept">MechanicalDept</string>
+    <string name="title_activity_workshop">Workshop</string>
+    <string name="title_activity_event_details">EventDetails</string>
+    <string name="title_activity_about_ldrp">AboutLDRP</string>
+    <string name="title_activity_about_xen">AboutXen</string>
+    <string name="title_activity_contact_us">ContactUs</string>
+    <string name="title_activity_registration_form">RegistrationForm</string>
+    <string name="about_ldrp">LDRP INSTITUTE OF TECHNOLOGY AND RESEARCH, Gandhinagar was established in 2005 – 2006.\nThe college has made steady progress during since its existence.\nEstablished as a pace setting Institute of Technical Education imparting undergraduate and postgraduate education, it has played a vital role in engineering colleges of Gujarat.\nIn this mission today it has progressed to offering several B.E., M.B.A. and M.C.A. Programs and facilities.\nThe college also undertakes R and D activities and offers testing, consultancy and other extension services including continuing education to the small industries and the placement of the students through the Department of Training and Placement.\nAs a prestigious state institute, LDRP has long recognized its role in engineering education, generation and dissemination of useful and relevant technological, industrial and economical development of the country, the institute has contributed in the application of science and technology in the service of the society through different programs of International aid and assistance, the institute has all along endeavored to discharge its obligations successfully with the efforts of its faculty expertise and well developed world class facilities.</string>
+    <string name="about_xenesis">Xenesis basically stands for the term evolution.\nX in Xenesis stands for extreme.\nXenesis is one of the most popular tech fest among techno geeks of Gujarat, with average 1500 participants and more than 2000 visitors since the inception in 2007.\nXenesis 2016 will be held on 1st and 2nd of April.\nIn this 9th season of Xenesis we have included all new events, some amazing workshops/seminars and X-potentially guaranteed fun. So, Gear up for the Revolution of an Extreme Era as we prepare the biggest tech-fest of this season.</string>
+
+    <string name="descC1">Description: There is always some kind of hidden way to reach the goal.\nRound 1: Crack it if you can!!!!!
+
+Solve the given maze and get the Program Definition. The participants who are able to solve the program and get the required output in short interval of time will move to next round.
+
+Round 2: Debugging (Max 20 min)
+
+In this round participant will be given two numbers between 1-5. An arithmetic operator will be given to them. They have to apply the operator and get an answer. The team shall be given a code containing as many errors as their answer obtained to be debugged.
+
+Round 3: Snake and ladder (max 40 min)
+
+Third round will be similar to the well known game “snake and ladder”.</string>
+    <string name="title_activity_civil_dept">CivilDept</string>
+    <string name="title_activity_mca_dept">McaDept</string>
+    <string name="title_activity_science">Science</string>
+</resources>
+

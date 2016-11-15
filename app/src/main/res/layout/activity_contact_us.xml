@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:context="com.example.rajsaraogi.xenisis.ContactUs">
+
+    <android.support.design.widget.AppBarLayout android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <android.support.v7.widget.Toolbar android:id="@+id/toolbar"
+            android:layout_width="match_parent" android:layout_height="60dp"
+            android:background="#21BCD0"  >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/title"
+                android:textColor="@color/white_darken_1"
+                android:text="Computer Department"
+                android:layout_marginLeft="5dp"
+                android:textSize="20dp"/>
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="10dp"
+            android:text="We Are Happy to Help You :)"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="20sp"
+            android:text="LDRP-ITR, Near KH – 5, Sector – 15, Gandhinagar, Gujarat – 382015"/>
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:onClick="callh"
+            android:id="@+id/b1"
+            android:background="@color/blue"
+            android:textColor="@android:color/white"
+            android:text="Call Help Desk"/>
+</LinearLayout>
